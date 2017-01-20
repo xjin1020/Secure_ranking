@@ -8,7 +8,7 @@ train = [['']*len(l) for i in range(4)]
 test = [['']*len(l) for i in range(4)]
 
 for i in range(len(l)):
-  filename = 'temp'+str(l[i])
+  filename = 'aqt_temp_3_'+str(l[i])
   fin = open(filename, 'r')
   lines = fin.readlines()
   fin.close()
