@@ -1,12 +1,14 @@
-Secure_ranking: this is the ranking part of the Secure Search Project.
-Created on: Jan.4.2017
-
 Steps to run:
-1. use "extract401450" to extract queries 401~450
+1. use "extract401450" to extract queries 401~450: ./extract401450 new17.txt
 2. use "shuf.sh" to shuffle
 3. modify filename in CV.sh
 4. run "./CV.sh"
 5. run "./google_doc.py" and copy results to google doc
 
+Attention:
+In non_dist.feature, feature "i" means our feature "i-1" because RankLib names feature as 1, 2, 3... but we name them as 0, 1, 2...
+
 Datasets:
 new15: 20170103
+new16: 20170112 bigram distance 3
+new17: 20170112 bigram distance 6
