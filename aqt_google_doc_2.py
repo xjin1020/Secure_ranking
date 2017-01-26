@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import re
 import sys
-l = [10, 20, 50, 100]
+l = [10, 20, 50, 100, 200]
 trainAvg = ['']*len(l)
 testAvg = ['']*len(l)
 train = [['']*len(l) for i in range(4)]

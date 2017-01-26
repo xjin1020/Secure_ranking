@@ -1,14 +1,14 @@
 #!/usr/bin/python
 import re
 import sys
-l = [10, 20, 50, 100, 200]
+l = [10, 20, 50, 100]
 trainAvg = ['']*len(l)
 testAvg = ['']*len(l)
 train = [['']*len(l) for i in range(4)]
 test = [['']*len(l) for i in range(4)]
 
 for i in range(len(l)):
-  filename = 'aqt_temp_1_'+str(l[i])
+  filename = 'ep_temp_1_'+str(l[i])
   fin = open(filename, 'r')
   lines = fin.readlines()
   fin.close()
