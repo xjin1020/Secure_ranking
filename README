@@ -1,9 +1,9 @@
 Steps to run:
-1. use "extract401450" to extract queries 401~450: ./extract401450 new17.txt
-2. use "shuf.sh" to shuffle
-3. modify filename in CV.sh
-4. run "./CV.sh"
-5. run "./google_doc.py" and copy results to google doc
+1. *Optional step* if you want to extract Robust04's query 401-450 to compare with sigir'14 paper: use "extract401450" to extract queries 401~450: ./extract401450 new17.txt
+2. Use "shuf.sh" to shuffle the dataset by queries for the cross validation step next.
+3. Modify filename in CV.sh.
+4. Run 3-fold cross validation: "./CV.sh".
+5. *Optional step if you want to copy the results back to google drive spreadsheet easily*: Run "./google_doc.py" and copy results to google doc
 
 Attention:
 In non_dist.feature, feature "i" means our feature "i-1" because RankLib names feature as 1, 2, 3... but we name them as 0, 1, 2...
