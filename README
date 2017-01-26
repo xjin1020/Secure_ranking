@@ -12,3 +12,8 @@ Datasets:
 new15: 20170103
 new16: 20170112 bigram distance 3
 new17: 20170112 bigram distance 6
+
+batch_* scripts are used for experiments with different L value(bigram distance) in the paper.
+ep_* scripts(like ep_batch_CV.sh) are used for Enterprise2008 dataset.
+aqt_* scripts(like aqt_batch_CV.sh) are used for AQUAINT dataset.
+Default scripts(like batch_CV.sh) are used for Robust04 dataset.
